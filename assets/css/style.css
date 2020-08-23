@@ -38,6 +38,24 @@
 .slick-next{
     right: -20px;
 }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  .desc{
+      text-align: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
